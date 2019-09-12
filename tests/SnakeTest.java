@@ -46,7 +46,22 @@ public class SnakeTest {
 		}
 		
 		//Test Case 2 
-		
+		public void fitsInCage() {
+			int lenght = Peter.length();
+			String cagelength;
+			int a = cagelength.length();
+			if (a < lenght) {
+				
+				System.out.println("Snake lenght is greater");
+				}
+			if else (a == lenght) {
+				System.out.println("Both are same");
+			}
+			
+			else (a > lenght) {
+				System.out.println("Cage Lenght is greater");
+			}
+		}
 
 	@After
 	public void tearDown() throws Exception {
