@@ -1,3 +1,4 @@
+//Simran Kaur Bal C0743319
 import static org.junit.Assert.*;
 
 import org.junit.After;
@@ -11,6 +12,8 @@ public class BlazeDemoTest {
 	WebDriver driver;
 	@Before
 	public void setUp() throws Exception {
+		//Test Case 1 
+		//setting website link and chromedriver
 		System.out.println("Hello World");
 		System.setProperty("webdriver.chrome.driver","Macintosh HD⁩/⁨Users⁩/⁨macstudent⁩/⁨Desktop/chromedriver⁩");
 		WebDriver driver = new ChromeDriver();
